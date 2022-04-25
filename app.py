@@ -22,5 +22,5 @@ def main() ->None :
     Notifications.notify_restaurant(new_order.order_restaurant)
     new_order.cancel_order()
 
- if __name__ == "__main__":
+if __name__ == "__main__" :
     main()
