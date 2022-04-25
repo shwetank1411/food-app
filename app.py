@@ -21,7 +21,7 @@ def main() ->None :
     new_order.order_payment(user_payment_mode)
     Notifications.notify_restaurant(new_order.order_restaurant)
     new_order.cancel_order()
-    
+
  if __name__ == "__main__":
  
-     main()
+    main()
