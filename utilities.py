@@ -14,7 +14,8 @@ class PaymentMode(Enum):
     def about() -> None:
         print("Codes for available payment modes are as follows -")
         for i in PaymentMode:
-            print(f"{i.name} is a code for {i.value}")
+            if i.value is not None :
+                print(f"{i.name} is a code for {i.value}")
 
 
 @dataclass(frozen=True)
